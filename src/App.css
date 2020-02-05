@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+
+.box{
+  background: red;
+  border:solid 1px black;
+  cursor: pointer;
+  color: #fff;
+  min-width:50px;
+  min-height: 50px; 
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .col-sm-1 {
+      flex: 0 0 8.333333%;
+      max-width: 8.333333%;
+  }
+}
+.zero{
+  border:solid 1px black;
+  min-width:50px;
+  min-height: 50px;
+}
+.container {
+ text-align: center;
+}
+.card-text{
+  text-align: left;
+}
+.card-header{
+  background: linear-gradient(45deg, #17a2b8, transparent);
+}
+.selectedSquare{
+  background: green;;
+}
+.selectedSquare :hover{
+  background: lightgreen ! important;
+}
